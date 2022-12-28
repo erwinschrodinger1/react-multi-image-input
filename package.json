@@ -1,5 +1,8 @@
 {
-  "name": "react-multiimg-preview-input",
+  "name": "@erwinschrodinger1/react-multiimg-preview-input",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/erwinschrodinger1"
+  },
   "version": "1.0.0",
   "description": "",
   "scripts": {
