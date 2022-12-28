@@ -10,20 +10,22 @@ export default function ImageInput({
   setImages,
   columns,
   isCaption,
+  maxImg,
 }: {
   width: number;
-  height?: number;
+  height: number;
   images: any;
   setImages: any;
-  columns: number;
+  columns?: number;
   isCaption?: boolean;
+  maxImg: number;
 }) {
   const onFileSelect = (e: any) => {
     const selectedFiles = e.target.files;
     let selectedFilesArray = Array.from(selectedFiles);
 
-    if (selectedFilesArray.length > 5) {
-      selectedFilesArray = selectedFilesArray.slice(-5);
+    if (selectedFilesArray.length > maxImg) {
+      selectedFilesArray = selectedFilesArray.slice(-maxImg);
     }
 
     let imagesArray = images.concat(
@@ -34,8 +36,8 @@ export default function ImageInput({
         return { src: URL.createObjectURL(file) };
       })
     );
-    if (imagesArray.length > 5) {
-      imagesArray = imagesArray.slice(-5);
+    if (imagesArray.length > maxImg) {
+      imagesArray = imagesArray.slice(-maxImg);
     }
 
     setImages(imagesArray);

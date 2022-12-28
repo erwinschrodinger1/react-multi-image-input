@@ -21,6 +21,7 @@ storiesOf("ImageInput", module).add("ImageInput", () => {
         images={images}
         setImages={setImages}
         isCaption={false}
+        maxImg={5}
       />
     </div>
   );
