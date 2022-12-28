@@ -1,0 +1,52 @@
+.ImageInput {
+  border: #c1c1c1 2px solid;
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+.ImageInput .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 40%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: underline;
+  border: 4px #c1c1c1 dashed;
+}
+.ImageInput .overlay input[type="file"] {
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+}
+.ImageInput .images {
+  margin: 10px;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(1, 1fr);
+}
+.ImageInput .images .addMore {
+  background: #f2f2f2;
+  aspect-ratio: 16 / 9;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-decoration: underline;
+}
+.ImageInput .images .addMore input[type="file"] {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+}
