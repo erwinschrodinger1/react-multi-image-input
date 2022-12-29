@@ -1,18 +1,20 @@
 {
-  "name": "@erwinschrodinger1/react-multiimg-preview-input",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/erwinschrodinger1"
-  },
+  "name": "react-multiimg-preview-input",
   "version": "1.0.0",
-  "description": "",
+  "description": "React Component package that can input the image in easier way.",
+  "homepage": "https://github.com/erwinschrodinger1/react-multiimage-preview-input.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erwinschrodinger1/react-multiimage-preview-input.git"
+  },
+  "keywords":["Image Input","Image Preview","React Component Library"],
   "scripts": {
     "rollup": "rollup -c",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Nirjal Bhurtel bhurtelnirjal@gmail.com",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.20.7",
     "@rollup/plugin-commonjs": "^24.0.0",
@@ -39,7 +41,9 @@
     "sass": "^1.57.1",
     "sass-loader": "^13.2.0",
     "style-loader": "^3.3.1",
-    "typescript": "^4.9.4"
+    "typescript": "^4.9.4",
+    "@rollup/plugin-terser": "^0.2.1",
+    "tslib": "^2.4.1"
   },
   "peerDependencies": {
     "react": "^18.2.0"
@@ -49,9 +53,5 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
-  "dependencies": {
-    "@rollup/plugin-terser": "^0.2.1",
-    "tslib": "^2.4.1"
-  }
+  "types": "dist/index.d.ts"
 }
