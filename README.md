@@ -1,4 +1,4 @@
-# react-multiimage-preview-input
+# react-multi-image-input
 
 A react component library to ease the step of taking input of images in react.
 
@@ -11,7 +11,7 @@ A react component library to ease the step of taking input of images in react.
 
 ## Installation
 
-`npm install react-multiimage-preview-input`
+`npm install react-multi-image-input`
 
 ## Usage
 
@@ -127,4 +127,4 @@ npm start
 
 ## License
 
-react-multiimage-preview-input is released under the MIT license.
+react-multi-image-input is released under the MIT license.
