@@ -1,11 +1,11 @@
 {
-  "name": "react-multiimg-preview-input",
-  "version": "1.0.0",
+  "name": "react-multi-image-input",
+  "version": "0.0.0",
   "description": "React Component package that can input the image in easier way.",
-  "homepage": "https://github.com/erwinschrodinger1/react-multiimage-preview-input.git",
+  "homepage": "https://github.com/erwinschrodinger1/react-multi-image-input.git",
   "repository": {
     "type": "git",
-    "url": "https://github.com/erwinschrodinger1/react-multiimage-preview-input.git"
+    "url": "https://github.com/erwinschrodinger1/react-multi-image-input.git"
   },
   "keywords":["Image Input","Image Preview","React Component Library"],
   "scripts": {

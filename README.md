@@ -3,6 +3,7 @@
 A react component library to ease the step of taking input of images in react.
 
 ## Screenshots
+
 <div display="grid">
 <img width="33%" src="https://user-images.githubusercontent.com/81609547/209852039-96f0d850-6b8d-4f82-8728-b8a32e329ed1.png"/>
 <img width="33%" src="https://user-images.githubusercontent.com/81609547/209852129-580a0a78-f783-4332-b59c-d31a497f056d.png"/>
@@ -16,7 +17,7 @@ A react component library to ease the step of taking input of images in react.
 ## Usage
 
 ```js
-import { ImageInput } from "react-multiimage-preview-input";
+import { ImageInput } from "react-multi-image-input";
 import { useState } from "react";
 
 function App() => {
@@ -118,8 +119,11 @@ npm start
 ```json
 [{ "file": "(file in blob format)" }, { "file": "(file in blob format)" }]
 ```
+
 ## Dependencies:
+
 ### peerDependencies
+
 `
 {
     "react": "^18.2.0"
